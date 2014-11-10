@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 age = 20
 name = 'wlad'
 
@@ -12,8 +14,17 @@ print '{0:.3f}'.format(1.0/3)
 # fill with underscores (_) with the text centered
 # (^) to 11 width '__hello__'
 print '{0:_^11}'.format('hello')
+print '{0:_^21}'.format('hello')
+print '{0:_^31}'.format('hello')
+print '{0:_^41}'.format('hello')
+print '{0:+^51}'.format('hello')
 
-# keyword-based 'Wlad wrote Test Automation Bibel'
+# FUCK: Wie kriegt man Umlaute mit .format korrekt ausgegeben???????
+print '{0:-^61}'.format('BEISPIEL ÜBERSCHRIFT')
+print "müschi"
+print u"müschi"
+
+# keyword-based 'Wlad wrote a Test Automation Book'
 print '{name} wrote {book}'.format(name='Wlad',
                                   book='Test Automation Bibel')
 
