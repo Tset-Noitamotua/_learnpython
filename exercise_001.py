@@ -1,3 +1,4 @@
+# printing your first 'hello world' with python!!!
 # practising some printing and using 
 # single and double quotes.
 # Pay special attention to the lines 12 and 13!
