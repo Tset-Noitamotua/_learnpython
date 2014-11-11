@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # some more printing exercises.
-# don't just read this shit! code it!
+# don't just read this shit! code it!!!
 
 """
 special characters like 'ä' in the next statement require to set the coding
