@@ -1,5 +1,12 @@
 # -*- coding: utf-8 -*-
 
+# some more printing exercises.
+# don't just read this shit! code it!
+
+"""
+special characters like 'ä' in the next statement require to set the coding
+in the first line (# -*- coding: utf-8 -*-) to be printed correctly.
+"""
 print "Ich werde nun meine Hühner zählen:"
 
 print "Hens", 25 + 30 / 6.0
