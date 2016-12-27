@@ -7,4 +7,4 @@
 app.db
 search.db
 flask
-/.idea
+.idea/
