@@ -7,6 +7,8 @@ Python Learning Path
 ====================
 
 * [ ] Django-Girls
+    * [ ] create first django project
+    * [ ] write automated tests from the beginning
 * [ ] ...
 * [ ] ...
 
