@@ -1,24 +1,26 @@
-<<<<<<< HEAD
-_learnpython
-============
+Getting started with Python ... 
+===============================
 
-Meine ersten Gehversuche mit Python ... 
-=======
-microblog
-=========
+Nothing specail here, just trying to learn some Python
 
-A decently featured microblogging web application written in Python and Flask that I'm developing in my Flask Mega-Tutorial series that begins [here](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).
+Python Learning Path
+====================
 
-Installation
-------------
+* [ ] Django-Girls
+* [ ] ...
+* [ ] ...
 
-The tutorial referenced above explains how to setup a virtual environment with all the required modules.
 
-The sqlite database must also be created before the application can run, and the `db_create.py` script takes care of that. See the [Database tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database) for the details.
+GIT configuration
+=================
+What do I need to do to configure git properly for Github?
 
-Running
--------
+NOTE: Assuming cmder, git and git-lfs is already installed (e.g. with chocolatey)
 
-To run the application in the development web server just execute `run.py` with the Python interpreter from the flask virtual environment.
+NOTE: Assuming Github is configured to keep your email private
 
->>>>>>> 6d80ff778f39791610734b8d65b2c93a6e593b61
+1. `git config --global user.name "tset-noitamotua"`
+2. `git config --global user.email "tset-noitamotua@users.noreply.github.com"`
+3. `git config --global credential.helper wincred`
+    
+    NOTE: first time you use e.g. `git push` you will be prompt for credentials though
