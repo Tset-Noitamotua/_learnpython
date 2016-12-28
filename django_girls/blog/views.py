@@ -5,7 +5,7 @@ from .forms import PostForm
 
 def post_list(request):
     """View with a list of our blog posts."""
-    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('-published_date')
     return render(request, 'blog/post_list.html', {'posts': posts})
 
 def post_detail(request, pk):
