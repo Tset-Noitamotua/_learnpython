@@ -12,6 +12,7 @@ Python Learning Path
 ====================
 
 * [ ] [CodeAcademy Python Course](https://www.codecademy.com/learn/python)
+* [ ] [Dive Into Python 3](http://www.diveintopython3.net/)
 * [ ] [Django-Girls](https://djangogirls.org/)
     * [ ] create first django project
     * [ ] write automated tests from the beginning
