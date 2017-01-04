@@ -15,6 +15,15 @@ script, filename = argv
 # position = md_file.seek(0)
 
 class RF_MardDown_File():
+    """This is a Robot Framework MarkDown code block parser.
+    Usage: 
+    1. save your robot test suite in a .md file inside one or more
+       ```robot (or ```robotframework) code blocks.
+    2. run `python rf_scanner.py your_robot_test_suite.md` --> creates a robot_data.robot file
+    3. run `robot robot_data.robot`
+
+    
+    """
 
     def __init__(self):
         pass
