@@ -4,15 +4,7 @@ from sys import argv
 
 script, filename = argv
 
-#xfile = open(filename, encoding='utf-8')
-#print(type(xfile))
 
-
-# print(md_file.read())
-# end_position = md_file.tell()
-
-# Lesekopf wieder auf null
-# position = md_file.seek(0)
 
 class RF_MardDown_File():
     """This script is your friend if you want to extract
@@ -29,7 +21,6 @@ class RF_MardDown_File():
     """
 
     def __init__(self):
-        pass
         self.file = open(filename, encoding='utf-8')
         #self.text = self.file.read()
         self.position = self.file.tell()
@@ -74,10 +65,6 @@ class RF_MardDown_File():
             print(self.line)
         robot_code.write('\n')
         robot_code.close()
-        # print(self.line)
-        #while self.line != '```\n':
-        #    self.line = self.file.readline()
-        #    print(self.line)
 
 
 
