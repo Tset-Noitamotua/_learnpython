@@ -28,7 +28,7 @@ Library    Collections
 
 *** Test Cases ***
 001 Simple Log Test Case
-    Log To Console    Hello Python!
+    Log    Hello Python!
     Log Many          Robot  Framework  Rules!!!
 ```
 
@@ -49,7 +49,7 @@ Library    Collections
 
 *** Test Cases ***
 002 Easy Robot Test
-    Log To Console    Hello Python!
+    Log    Hello Python!
     Log Many          Robot  Framework  Rules!!!
 ```
 
