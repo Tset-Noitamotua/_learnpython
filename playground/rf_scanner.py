@@ -4,8 +4,8 @@ from sys import argv
 
 script, filename = argv
 
-xfile = open(filename, encoding='utf-8')
-print(type(xfile))
+#xfile = open(filename, encoding='utf-8')
+#print(type(xfile))
 
 
 # print(md_file.read())
@@ -50,13 +50,18 @@ class RF_MardDown_File():
         return self.line
 
     def extract_rf_code_block(self):
+        # saves robot framework code to `robot_data.robot`  file 
+        robot_code = open('robot_data.robot', mode='a', encoding='utf-8')
         print('--- START OF ROBOT CODE ---')
         while not self.file.closed:
             self.line = self.file.readline()
             if self.line == '```\n':
                 print('--- END OF ROBOT CODE ---')
                 break
+            robot_code.write(self.line)
             print(self.line)
+        robot_code.write('\n')
+        robot_code.close()
         # print(self.line)
         #while self.line != '```\n':
         #    self.line = self.file.readline()
@@ -78,4 +83,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
