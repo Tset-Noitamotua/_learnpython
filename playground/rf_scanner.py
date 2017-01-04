@@ -18,6 +18,10 @@ class RF_MardDown_File():
        --> this will create a robot_data.robot file in cwd
     3. run `robot robot_data.robot`
     4. enjoy :)
+
+    TODO: modify robot.bat and/or robots's run.py to execute
+          .md files in one step like:
+          run `robot cool_markdown_testsuite.md`
     """
 
     def __init__(self):
