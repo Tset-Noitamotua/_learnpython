@@ -9,7 +9,7 @@ Usage examples:
 > robot_1.bat example_03.robot
 
 Limitations:
-You can run only one .md / .robot file at one without commandline options!
+You can run only one .md / .robot file at once without commandline options!
 
 
 ----- robot_1.bat ---------------------------
