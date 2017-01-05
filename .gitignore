@@ -9,6 +9,13 @@ flask
 **/.idea/
 **/.vscode/
 
+# ROBOT
+# =====
+*.robot
+*.xml
+report.html
+log.html
+
 # DJANGO
 # ======
 *~
