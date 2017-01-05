@@ -22,7 +22,7 @@ some more text
 EXECUABLE ROBOT DATA I
 --------------------------------------------------
 
-```robot
+```robotframework
 *** Settings ***
 Library    Collections
 

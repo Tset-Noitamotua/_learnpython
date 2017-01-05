@@ -11,7 +11,8 @@ Of course you can use links to better navigate across this file (e.g. see [Secti
 Let's start with a simple `log` test case.
 
 
-```robot
+```robotframework
+
 # This is a Robot Framework specific MarkDown code block.
 # Only such code blocks will be executed when running tests with Robot's test runner.
 # Of course comments like this lines will be ignored by the runner!
@@ -90,7 +91,7 @@ some more text
 
 
 
-```robot
+```robotframework
 *** Settings ***
 Library    RequestsLibrary
 
