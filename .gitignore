@@ -11,7 +11,7 @@ flask
 
 # ROBOT
 # =====
-*.robot
+robot_data.robot
 *.xml
 report.html
 log.html
