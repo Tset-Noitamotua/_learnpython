@@ -4,7 +4,7 @@ Below an example of how our executable RF test documentation looks like in MarkD
 
 This is an example of executable Robot Framework test data/documentation in a MarkDown (`.md`) file format.  Keep all your test automation assets in one place. This is almost real **SSOF** (_Single Source of Truth_), **SPOT** (_Single Point of Truth_) or call it what you like - it's just cool!
 
-Of course you can use links to better navigate across this file (e.g. see [Section III](##SectionIII)) or to link to other [documents](https://github.com/Tset-Noitamotua/_learnpython/blob/master/README.md). 
+Of course you can use links to better navigate across this file (e.g. see [Section III](#sectioniii)) or to link to other [documents](https://github.com/Tset-Noitamotua/_learnpython/blob/master/README.md). 
 
 
 ## Section I
@@ -83,7 +83,7 @@ Library    Collections
 ```
 
 
-## SectionIII
+## Section III
 
 some text
 some more text
