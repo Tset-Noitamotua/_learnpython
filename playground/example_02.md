@@ -1,10 +1,10 @@
-Below an example of how our executable RF test documentation looks like in MarkDowns's preview mode. It's pure joy to look at such documentation and - even more joy to **_work_** with it!
-
 # Executable Robot Framework Test Documenation
 
 This is an example of executable Robot Framework test data/documentation in a MarkDown (`.md`) file format.  Keep all your test automation assets in one place. This is almost real **SSOF** (_Single Source of Truth_), **SPOT** (_Single Point of Truth_) or call it what you like - it's just cool!
 
-Of course you can use links to better navigate across this file (e.g. see [Section III](#sectioniii)) or to link to other [documents](https://github.com/Tset-Noitamotua/_learnpython/blob/master/README.md). 
+This example demonstrates how your executable RF test documentation looks like in MarkDowns's preview mode. It's pure joy to look at such documentation and - even more joy to **_work_** with it!
+
+Of course you can use links to better navigate across this file (e.g. see [Section III](#sectioniii)) or to link to other [documents](https://github.com/Tset-Noitamotua/_learnpython/blob/master/README.md).
 
 
 ## Section I
@@ -16,8 +16,8 @@ Let's start with a simple `log` test case.
 # This is a Robot Framework specific MarkDown code block.
 # Only such code blocks will be executed when running tests with Robot's test runner.
 # Of course comments like this lines will be ignored by the runner!
-# Same way as they are ignored in .robot files  
- 
+# Same way as they are ignored in .robot files
+
 *** Settings ***
 Library    Collections
 
