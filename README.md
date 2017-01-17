@@ -21,6 +21,7 @@ Python Learning Path
 * [ ] [Learn Python The Hard Way](https://learnpythonthehardway.org/book/) (Book online)
 * [ ] [CS Principles: Big Ideas in Programming](http://interactivepython.org/runestone/static/StudentCSP/index.html) (Interactive online)
 * [ ] http://www.pythonlearn.com/
+* [ ] http://automatetheboringstuff.com/
 
 
     * [ ] write automated tests from the beginning
