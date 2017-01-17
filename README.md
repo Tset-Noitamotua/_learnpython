@@ -31,6 +31,9 @@ Python Learning Path
 * [ ] [Dive Into Python 3](http://www.diveintopython3.net/) (Book online)
 * [ ] [Python for Computational Science and Engineering](http://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf) (PDF)
 * [ ] [Problem Solving with Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html) (Interactive online)
+* [ ] [Python How to Program] (Python How to Program) (Youtube)
+* [ ] [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/) (Book online)
+* [ ] [Python Challenge](http://www.pythonchallenge.com/) (Solve riddles!)
 
 ## PART III (specialization)
 > Where do you want to go after Part I and II? There are a lot of special areas and it is hard to master them all thus you should decide where you want to put your focus.
