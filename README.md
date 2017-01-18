@@ -59,7 +59,8 @@ Python Learning Path
  - for PART I: https://repl.it/languages/python3 (no installation require)
  - for PART II: PyCharm CE / IntelliJ CE / VisualStudio 2015+
  - for PART III: one of PART II + some specialized tools or frameworks
->>>>>>> cc22448afba4997320827351c50d7cf844b3fe66
+
+
 
 
 GIT configuration
