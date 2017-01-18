@@ -13,6 +13,7 @@ Python Learning Path
 
 ## PART I (beginner)
 > For total beginners that have no previous programming experience.
+
 * [ ] [Google Python Class](https://youtu.be/tKTZoB2Vjuk?list=PLC8825D0450647509) (YouTube Video)
 * [ ] [How to Think Like a Computer Scientist](http://interactivepython.org/runestone/static/thinkcspy/index.html) (Interactive online)
 * [ ] [A Byte of Python](https://python.swaroopch.com/first_steps.html) (Book online)
@@ -22,16 +23,16 @@ Python Learning Path
 * [ ] [CS Principles: Big Ideas in Programming](http://interactivepython.org/runestone/static/StudentCSP/index.html) (Interactive online)
 * [ ] http://www.pythonlearn.com/
 * [ ] http://automatetheboringstuff.com/
-
-
-    * [ ] write automated tests from the beginning
-<<<<<<< HEAD
 * [ ] https://realpython.com ??? ($60)
 * [ ] ...
-=======
+
+    * [ ] write automated tests from the beginning
+
+
 
 ## PART II (intermediate)
 > For peope that have at least some previous programming experience even if it's from other languages.
+
 * [ ] [Dive Into Python 3](http://www.diveintopython3.net/) (Book online)
 * [ ] [Python for Computational Science and Engineering](http://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf) (PDF)
 * [ ] [Problem Solving with Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html) (Interactive online)
@@ -41,6 +42,7 @@ Python Learning Path
 
 ## PART III (specialization)
 > Where do you want to go after Part I and II? There are a lot of special areas and it is hard to master them all thus you should decide where you want to put your focus.
+
 * [ ] Backend/API development
 * [ ] Frontend/GUI development
 * [ ] Web Application/Apps development (front- & backend)
