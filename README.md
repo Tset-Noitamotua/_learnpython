@@ -16,7 +16,7 @@ Python Learning Path
 * [ ] [Django-Girls](https://djangogirls.org/)
     * [ ] create first django project
     * [ ] write automated tests from the beginning
-* [ ] ...
+* [ ] https://realpython.com ??? ($60)
 * [ ] ...
 
 
