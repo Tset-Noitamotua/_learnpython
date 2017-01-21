@@ -14,6 +14,7 @@ Python Learning Path
 ## PART I (beginner)
 > For total beginners that have no previous programming experience.
 * [ ] [Google Python Class](https://youtu.be/tKTZoB2Vjuk?list=PLC8825D0450647509) (YouTube Video)
+    * [Support materials and exercises](https://developers.google.com/edu/python/)
 * [ ] [How to Think Like a Computer Scientist](http://interactivepython.org/runestone/static/thinkcspy/index.html) (Interactive online)
 * [ ] [A Byte of Python](https://python.swaroopch.com/first_steps.html) (Book online)
 * [ ] [Python for You and Me - _PYM_ ](http://pymbook.readthedocs.io/en/latest/) (Book online)
