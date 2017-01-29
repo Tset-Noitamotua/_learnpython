@@ -27,7 +27,8 @@ Python Learning Path
 * [ ] https://realpython.com ??? ($60)
 * [ ] ...
 
-    * [ ] write automated tests from the beginning
+    * write automated tests from the beginning
+    * [ ] [PyTest Tutorial](https://github.com/keeppythonweird/catinabox)
 
 
 
