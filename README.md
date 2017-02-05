@@ -26,8 +26,6 @@ Python Learning Path
 * [ ] [Learn Python The Hard Way](https://learnpythonthehardway.org/book/) (Book online)
 * [ ] [CS Principles: Big Ideas in Programming](http://interactivepython.org/runestone/static/StudentCSP/index.html) (Interactive online)
 * [ ] http://www.pythonlearn.com/
-
-
 * [ ] **Write automated tests right from the beginning!**
     * [ ] [PyTest Tutorial](https://github.com/keeppythonweird/catinabox)
     * ...
@@ -57,7 +55,7 @@ Python Learning Path
   - ...
 
 
-        Use http://pythontutor.com/ to 'visualize' your code
+    ```Use http://pythontutor.com/ to 'visualize' your code```
 
 
 
