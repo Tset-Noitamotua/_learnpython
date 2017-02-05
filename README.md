@@ -25,6 +25,7 @@ Python Learning Path
 * [ ] [CS Principles: Big Ideas in Programming](http://interactivepython.org/runestone/static/StudentCSP/index.html) (Interactive online)
 * [ ] http://www.pythonlearn.com/
 * [ ] https://realpython.com ??? ($60)
+
 * [ ] Want more? For free?
     - https://checkio.org/ (GAME!!! Play & Learn!)
     - https://www.coursera.org/learn/python/
@@ -44,9 +45,11 @@ Python Learning Path
     - https://www.codeschool.com/ ($20 - $30 /mo)
     - https://www.datacamp.com/
     - 
-
-* [ ] Write automated tests from the beginning!
 * [ ] Use http://pythontutor.com/ to 'visualize' your code
+* [ ] ...
+
+    * write automated tests from the beginning
+    * [ ] [PyTest Tutorial](https://github.com/keeppythonweird/catinabox)
 
 
 
