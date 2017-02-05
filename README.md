@@ -13,6 +13,8 @@ Python Learning Path
 
 ## PART I (beginner)
 > For total beginners that have no previous programming experience.
+> 
+
 
 * [ ] [Google Python Class](https://youtu.be/tKTZoB2Vjuk?list=PLC8825D0450647509) (YouTube Video)
     * [Support materials and exercises](https://developers.google.com/edu/python/)
@@ -24,32 +26,38 @@ Python Learning Path
 * [ ] [Learn Python The Hard Way](https://learnpythonthehardway.org/book/) (Book online)
 * [ ] [CS Principles: Big Ideas in Programming](http://interactivepython.org/runestone/static/StudentCSP/index.html) (Interactive online)
 * [ ] http://www.pythonlearn.com/
-* [ ] https://realpython.com ??? ($60)
-* Write automated tests right from the beginning!
+
+
+* [ ] **Write automated tests right from the beginning!**
     * [ ] [PyTest Tutorial](https://github.com/keeppythonweird/catinabox)
+    * ...
 
-* [ ] Want more? For free?
-    - https://checkio.org/ (GAME!!! Play & Learn!)
-    - https://www.coursera.org/learn/python/
-    - https://www.coursera.org/learn/learn-to-program/
-    - http://www.afterhoursprogramming.com/tutorial/Python/Overview/
-    - https://www.learnpython.org/
-    - http://www.pyschools.com/
-    - http://codingbat.com/python
-    - http://www.markandclick.com/ (Interactive tutorial)
-    - http://inventwithpython.com/ (4 online books)
-        - [Automate The Boring stuff](http://automatetheboringstuff.com/)
-        - Invent your own computer games with python
-        - Making Games with Python & PyGame
-        - Hacking Secret Ciphers with Python
+
+* [ ] **Want more? For free?**
+  - https://checkio.org/ (GAME!!! Play & Learn!)
+  - https://www.coursera.org/learn/python/
+  - https://www.coursera.org/learn/learn-to-program/
+  - http://www.afterhoursprogramming.com/tutorial/Python/Overview/
+  - https://www.learnpython.org/
+  - http://www.pyschools.com/
+  - http://codingbat.com/python
+  - http://www.markandclick.com/ (Interactive tutorial)
+  - http://inventwithpython.com/ (4 online books)
+    - [Automate The Boring stuff](http://automatetheboringstuff.com/)
+    - Invent your own computer games with python
+    - Making Games with Python & PyGame
+    - Hacking Secret Ciphers with Python
     - http://www.singpath.com/#/paths (nice idea - unfotunatly buggy as sh**)
-* [ ] Want even more? Mostly paid stuff:
-    - https://www.codeschool.com/ ($20 - $30 /mo)
-    - https://www.datacamp.com/
+    - ...
 
----
+* [ ] **Want even more? (Mostly paid stuff):**
+  - https://realpython.com ($60)
+  - https://www.codeschool.com/ ($20 - $30 /mo)
+  - https://www.datacamp.com/
+  - ...
 
-* [ ] Use http://pythontutor.com/ to 'visualize' your code
+
+        Use http://pythontutor.com/ to 'visualize' your code
 
 
 
