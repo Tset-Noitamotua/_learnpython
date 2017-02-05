@@ -27,7 +27,7 @@ Python Learning Path
 * [ ] [CS Principles: Big Ideas in Programming](http://interactivepython.org/runestone/static/StudentCSP/index.html) (Interactive online)
 * [ ] http://www.pythonlearn.com/
 * [ ] *Write automated tests right from the beginning!*
-    * [ ] [PyTest Tutorial](https://github.com/keeppythonweird/catinabox)
+    * [ ] Write unit tests with py.test ([PyTest tutorial](https://github.com/keeppythonweird/catinabox))
     * ...
 
 
@@ -55,7 +55,7 @@ Python Learning Path
   - ...
 
 ```md
-Use http://pythontutor.com/ to 'visualize' your code
+Use http://pythontutor.com to 'visualize' your code
 ```
 
 
