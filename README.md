@@ -112,3 +112,22 @@ NOTE: Assuming Github is configured to keep your email private
 3. `git config --global credential.helper wincred`
     
     NOTE: first time you use e.g. `git push` you will be prompt for credentials though
+
+Git tricks
+==========
+
+> This is how to setup your fork repo so that it is connected with original repo. 
+> That allows you to easily merge changes from original repo into your fork
+> and thus keeps you synced:
+
+```bash
+1. git clone https://github.com/Tset-Noitamotua/robotframework    # my fork url
+2. git remote add upstream https://github.com/robotframework/robotframework.git    # upstream repo url
+3. git checkout master    # if not already on master branch
+4. git pull upstream master    # or any other branch 
+5. git push origin master    # to update your remote branch
+```
+
+> Sync a fork of a repository to keep it up-to-date with the upstream repository:
+> [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+> (Github documentation)
