@@ -3,11 +3,11 @@
 
 from sys import argv
 from io import StringIO
-from robot import run
-from robot import run_cli
+from io import BytesIO
+from txtreader import TxtReader
 
 
-script, filename = argv
+#script, filename = argv
 
 
 
@@ -83,15 +83,32 @@ class RF_MardDown_File():
         robot_file.write('\n')
         robot_file.close()
 
-
+filename = argv[1]
 
 def main():
-    file = RF_MardDown_File()
+    file = md_file
     while not file.closed():
-        file.read_file_line_by_line()
-        if file.line.startswith('```robot'):
-            file.extract_rf_code_block()
-        if file.line == '':
+        # file.read_file_line_by_line()
+        # ========================================
+
+        line = file.readline()
+
+        # ========================================
+        if line.startswith('```robotframework'):
+            # file.extract_rf_code_block()
+            # ====================================
+
+            robot_lines = []
+            print('--- START OF ROBOT CODE ---')
+            while not self.file.closed:
+                line = file.readline()
+                if self.line == '```\n':
+                    print('--- END OF ROBOT CODE ---')
+                    break
+                robot_lines.append(line)
+
+            # ====================================
+        if line == '':
             # When end of file is reached close it!
             print('END OF FILE REACHED - CLOSING!')
             file.close()
@@ -101,7 +118,7 @@ def main_pekka(filename):
     robot_lines = []
     # opens our file under alias 'md_file' and operates all the following
     # statments on it
-    with open(filename, encoding='utf-8') as md_file:
+    with open(filename, 'rb') as md_file:
         # creates a boolean var
         include_line = False
         # for each line of the file that we passed as arguement to this script
@@ -116,26 +133,30 @@ def main_pekka(filename):
                 robot_lines.append(line)
     # robot_data = StringIO(''.join(robot_lines))
     robot_data = str(''.join(robot_lines))
+    txtfile = BytesIO(robot_data.encode('UTF-8'))
+    a = TxtReader().read(txtfile)
+    print('FUCK')
+    print(a)
+    f = open(txtfile, 'rb')
+    f.read()
+    print(f)
     # print(robot_data)
-    robot_file = open('robot_data.robot', mode='w', encoding='utf-8')
-    robot_file.write(robot_data)
-    robot_file.close()
+    # robot_file = open('robot_data.robot', mode='w', encoding='utf-8')
+    # robot_file.write(robot_data)
+    # robot_file.close()
 
-def copy_original_robot_file(file):
-    file = open(filename, encoding='utf-8')
-    clipboard = file.read()
-    robot_file = open('robot_data.robot', mode='w', encoding='utf-8')
-    robot_file.write(clipboard)
-    file.close()
-    robot_file.close()
+# def copy_original_robot_file(file):
+#     file = open(filename, encoding='utf-8')
+#     clipboard = file.read()
+#     robot_file = open('robot_data.robot', mode='w', encoding='utf-8')
+#     robot_file.write(clipboard)
+#     file.close()
+#     robot_file.close()
 
 
 if __name__ == '__main__':
-    if not str(filename).endswith('.md'):
-        copy_original_robot_file(filename)
-    else:
+    # if not str(filename).endswith('.md'):
+    #     copy_original_robot_file(filename)
+    # else:
         main_pekka(filename)
     # main()
-
-    if file is not  .md:
-
