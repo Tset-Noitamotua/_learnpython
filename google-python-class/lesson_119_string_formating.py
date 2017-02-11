@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# filename: lesson_119_format_string.py
+# filename: lesson_119_string_formating.py
 
 def main():
     """
