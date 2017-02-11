@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# filename: lesson_006_researching_modules.py
+# filename: lesson_116_researching_modules.py
 # 
 # Two options to research what a specific Python module is good for
 # You have to enter interactive console (>>> python) to use them both!

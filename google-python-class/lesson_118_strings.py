@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# filename: lesson_008_strings.py
+# filename: lesson_118_strings.py
 #
 # stings are imutable - means they never change!!!
 """
