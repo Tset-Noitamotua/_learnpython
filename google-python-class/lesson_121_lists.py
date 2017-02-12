@@ -82,7 +82,7 @@ print(L)
 L.pop(0)
 print(L)
 
-# Example of common mistak mentioned above
+# Example of common mistake mentioned above
 try:
     a = L.append(99)
     print('a ---> ' + str(a))
