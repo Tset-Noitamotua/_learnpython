@@ -13,9 +13,12 @@ Python Learning Path
 
 ## PART I (beginner)
 > For total beginners that have no previous programming experience.
+> 
+
 
 * [ ] [Google Python Class](https://youtu.be/tKTZoB2Vjuk?list=PLC8825D0450647509) (YouTube Video)
     * [Support materials and exercises](https://developers.google.com/edu/python/)
+    * Additional stuff recommanded by Google: [Udacity - CS101](http://udacity.com/course/cs101)
 * [ ] [How to Think Like a Computer Scientist](http://interactivepython.org/runestone/static/thinkcspy/index.html) (Interactive online)
 * [ ] [A Byte of Python](https://python.swaroopch.com/first_steps.html) (Book online)
 * [ ] [Python for You and Me - _PYM_ ](http://pymbook.readthedocs.io/en/latest/) (Book online)
@@ -23,12 +26,38 @@ Python Learning Path
 * [ ] [Learn Python The Hard Way](https://learnpythonthehardway.org/book/) (Book online)
 * [ ] [CS Principles: Big Ideas in Programming](http://interactivepython.org/runestone/static/StudentCSP/index.html) (Interactive online)
 * [ ] http://www.pythonlearn.com/
-* [ ] http://automatetheboringstuff.com/
-* [ ] https://realpython.com ??? ($60)
-* [ ] ...
+* [ ] *Write automated tests right from the beginning!*
+    * [ ] Write unit tests with py.test ([PyTest tutorial](https://github.com/keeppythonweird/catinabox))
+    * ...
 
-    * write automated tests from the beginning
-    * [ ] [PyTest Tutorial](https://github.com/keeppythonweird/catinabox)
+
+* [ ] **Want more? For free?**
+  - https://checkio.org/ (GAME!!! Play & Learn!)
+  - https://www.coursera.org/learn/python/
+  - https://www.coursera.org/learn/learn-to-program/
+  - http://www.afterhoursprogramming.com/tutorial/Python/Overview/
+  - https://www.learnpython.org/
+  - http://www.pyschools.com/
+  - http://codingbat.com/python
+  - http://www.markandclick.com/ (Interactive tutorial)
+  - http://inventwithpython.com/ (4 online books)
+    - [Automate The Boring stuff](http://automatetheboringstuff.com/)
+    - Invent your own computer games with python
+    - Making Games with Python & PyGame
+    - Hacking Secret Ciphers with Python
+    - http://www.singpath.com/#/paths (nice idea - unfotunatly buggy as sh**)
+    - ...
+
+* [ ] **Want even more? (Mostly paid stuff):**
+  - https://realpython.com ($60)
+  - https://www.codeschool.com/ ($20 - $30 /mo)
+  - https://www.datacamp.com/
+  - ...
+
+```md
+Use http://pythontutor.com to 'visualize' your code
+```
+
 
 
 
@@ -41,6 +70,11 @@ Python Learning Path
 * [ ] [Python How to Program] (Python How to Program) (Youtube)
 * [ ] [The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/) (Book online)
 * [ ] [Python Challenge](http://www.pythonchallenge.com/) (Solve riddles!)
+* [ ] [The Python (3.6.0) Tutorial](https://docs.python.org/3/tutorial/index.html) (python.org)
+* [ ] http://pythonpracticeprojects.com/
+* [ ] https://www.coursera.org/learn/interactive-python-1/
+* [ ] https://www.coursera.org/learn/interactive-python-2/
+
 
 ## PART III (specialization)
 > Where do you want to go after Part I and II? There are a lot of special areas and it is hard to master them all thus you should decide where you want to put your focus.
@@ -78,3 +112,22 @@ NOTE: Assuming Github is configured to keep your email private
 3. `git config --global credential.helper wincred`
     
     NOTE: first time you use e.g. `git push` you will be prompt for credentials though
+
+Git tricks
+==========
+
+> This is how to setup your fork repo so that it is connected with original repo. 
+> That allows you to easily merge changes from original repo into your fork
+> and thus keeps you synced:
+
+```bash
+1. git clone https://github.com/Tset-Noitamotua/robotframework    # my fork url
+2. git remote add upstream https://github.com/robotframework/robotframework.git    # upstream repo url
+3. git checkout master    # if not already on master branch
+4. git pull upstream master    # or any other branch 
+5. git push origin master    # to update your remote branch
+```
+
+> Sync a fork of a repository to keep it up-to-date with the upstream repository:
+> [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+> (Github documentation)

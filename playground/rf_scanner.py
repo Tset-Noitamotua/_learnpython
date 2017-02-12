@@ -4,12 +4,10 @@
 from sys import argv
 from io import StringIO
 from io import BytesIO
-from robot import run
-from robot import run_cli
+from txtreader import TxtReader
 
 
-script, file = argv
-
+#script, filename = argv
 
 
 
@@ -115,7 +113,6 @@ def main_pekka(md_file):
             else:
                 robot_lines.append(line)
     robot_data = str(''.join(robot_lines))
-    # robot_data = str(''.join(robot_lines))
     print('robot_data: ', robot_data)
     txtfile = BytesIO(robot_data.encode('UTF-8'))
     print('txtfile: ', txtfile)
