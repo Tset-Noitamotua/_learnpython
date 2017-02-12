@@ -14,8 +14,8 @@ print('a: ' + str(a))
 # 3. arg we already know. It can be used to reverse the sorting
 # 2. arg will allow us to make a custom sorting
 
-# Let's say we want to sort the strings in a depending on their last character.
-# For that we create a function Last(s) which takes a string and return it'
+# Let's say we want to sort strings in 'a' depending on their last character
+# For that we create a function Last(s) which takes a string and returns it's
 # last character
 def Last(s):
     return s[-1]
