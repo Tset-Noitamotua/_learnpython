@@ -81,6 +81,10 @@ print(L)
 # removes first element (PROWSER) and returns it
 L.pop(0)
 print(L)
+# get an element's index
+print(L.index('curly'))
+print(L.index(['Tset', 'Noitamotua']))
+print(L.index('TESTER'))
 
 # Example of common mistake mentioned above
 try:
