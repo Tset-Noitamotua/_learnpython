@@ -13,8 +13,20 @@
 # so [1, 2, 2, 3] returns [1, 2, 3]. You may create a new list or
 # modify the passed in list.
 def remove_adjacent(nums):
-  # +++your code here+++
-  return
+    new_list = []
+    for index, number in enumerate(nums):
+      # print('index --> nummber:', index, number)
+      if index  == len(nums) - 1:
+        new_list.append(number)
+        # print('new_list -->', new_list)
+        return new_list
+      if number == nums[index + 1]:
+          pass
+          # print('popping number:', number, 'from index:', index)
+      else:
+        new_list.append(number)
+        # print('new_list -->', new_list)
+    return new_list
 
 
 # E. Given two lists sorted in increasing order, create and return a merged
@@ -38,9 +50,9 @@ def linear_merge(list1, list2):
 # what each function returns vs. what it's supposed to return.
 def test(got, expected):
   if got == expected:
-    prefix = ' OK '
+    prefix = ' PASS '
   else:
-    prefix = '  X '
+    prefix = '  FAIL '
   print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))
 
 
