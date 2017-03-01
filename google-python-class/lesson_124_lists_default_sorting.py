@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# filename: lesson_122_list_default_sorting.py
+# filename: lesson_122_lists_default_sorting.py
 
 # list of strings
 a = ['cccz', 'bb', 'dd', 'zzz', 'adsf', 'spam', 'foo']

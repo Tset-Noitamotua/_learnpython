@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # https://developers.google.com/edu/python/sorting
-# filename: lesson_123_list_custom_sorting.py
+# filename: lesson_123_lists_custom_sorting.py
 
 a = ['cccz', 'bb', 'zzzb' 'ZZZa', 'zzz', 'zzza', 'spam', 'foo']
 
