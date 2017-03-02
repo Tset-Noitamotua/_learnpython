@@ -136,7 +136,12 @@ LOGGING DICTIONARY VARIABLES
 
 ```
 
+### Log.html
+
 ![dict_variables_log](images/dict_variables_log.png)
+
+See also [according Google Group discussion][3]!
 
 [1]: http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#creating-dictionary-variables
 [2]: http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#named-arguments
+[3]: https://groups.google.com/forum/#!topic/robotframework-users/vEHNY2zgjrs
