@@ -31,15 +31,19 @@ print(emp_2.email)
 # Corey.Schafer@company.com
 # Test.User@company.com
 
-# Both statements below have the same result
-# but the first one calling 'fullname()' on instance (emp_1) of class 'Employee'
-# while the second is calling 'fullname()' directly on the class 'Employee' itself
-# --> in first case emp_1 is automatically passed in as 'self' argument to 'fullname()'
-# --> in second case emp_1 have to be passed manually
+"""Both statements below have the same result
+but the first one calling 'fullname()' on instance (emp_1) of class 'Employee'
+while the second is calling 'fullname()' directly on the class 'Employee'
+itself.
+
+--> in first case emp_1 is automatically passed in as 'self' argument to
+'fullname()'
+
+--> in second case emp_1 have to be passed manually
+"""
 print(emp_1.fullname())
 print(Employee.fullname(emp_1))
 #
 # Output:
 # Corey Schafer
 # Corey Schafer
-
