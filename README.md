@@ -116,7 +116,7 @@ NOTE: Assuming Github is configured to keep your email private
 Git tricks
 ==========
 
-> **HOW TO** setup your fork repo so that it is connected with original repo. 
+### **HOW TO** setup your fork repo so that it is connected with original repo on Github. 
 > That allows you to easily merge changes from original repo into your fork
 > and thus keeps you synced:
 
@@ -128,12 +128,13 @@ Git tricks
 5. git push origin master    # to update your remote branch
 ```
 
-#### For more details read original Github documentation
+For more details read original Github documentation:
 
 [Sync a fork of a repository to keep it up-to-date with the upstream repository (syncing a fork)](https://help.github.com/articles/syncing-a-fork/)
 
 
-> **HOW TO** reset url of cloned repo so that it points to your later created fork:
+### **HOW TO** reset url of cloned repo so that it points to your (later created) fork
+> You might need this in case you cloned a repo directly (without forking it in the first place) but later decide to fork it.
 
 ```bash
 git remote set-url origin https://github.com/Tset-Noitamotua/awesome-test-automation   # my fork url
