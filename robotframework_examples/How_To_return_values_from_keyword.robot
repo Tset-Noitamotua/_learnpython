@@ -4,8 +4,8 @@
 
 
 *** Test Cases ***
-002 give me all animals
-  [Documentation]  This will unpack returned values of "all animals" keyword
+001 give me all animals
+  [Documentation]  Unpack returned values of "all animals" keyword
     ...            into ${animals} variable.
     ...
   ${animals}=  all animals
@@ -13,7 +13,7 @@
   Log  ${animals}\n  console=True
 
 002 give me dogs only
-  [Documentation]  This will unpack only first value of "all animals" keyword
+  [Documentation]  Unpack only first value of "all animals" keyword
     ...            into ${dogs} variable.
     ...
   ${dogs}  ${_}  ${_}  ${_}  all animals
