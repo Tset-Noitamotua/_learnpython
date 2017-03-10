@@ -24,7 +24,7 @@ def remove_from_list():
 #       "del" and "remove()" execution.
 #       On my machine a range_count of 2000000 lets "del" take ~10 s
 #                                          and "remove()" take ~15 s
-range_count = 500000
+range_count = 2000000
 
 
 # without progressbar
