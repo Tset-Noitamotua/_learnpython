@@ -9,6 +9,9 @@ flask
 **/.idea/
 **/.vscode/
 
+# NODEJS
+**/node_modules/
+
 # ROBOT
 # =====
 robot_data.robot
