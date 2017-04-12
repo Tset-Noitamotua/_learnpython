@@ -22,7 +22,7 @@ log.html
 # DJANGO
 # ======
 *~
-__pycache__
+**/__pycache__/
 db.sqlite3
 /static
 .DS_Store
