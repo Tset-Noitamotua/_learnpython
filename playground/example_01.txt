@@ -1,0 +1,24 @@
+
+*** Settings ***
+Library    Collections
+
+*** Test Cases ***
+001 Simple Log Test Case
+    Log    Hello Python!
+    Log Many          Robot  Framework  Rules!!!
+
+
+# comments
+# yeah comments are possible in .txt files, too
+
+*** Settings ***
+Library    Collections
+
+*** Test Cases ***
+002 Easy Robot Test
+    Log    Hello Python!
+    Log Many          Robot  Framework  Rules!!!
+
+
+
+# =============== ENDE ENDE ENDE ENDE ===============
