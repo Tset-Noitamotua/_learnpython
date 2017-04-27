@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <style>
+      .border { border: 1px solid black; }
+      input { width: 35em; }
+      .left { width: 25%; float: left; margin: 20px; }
+      .right { width: 60%; float: left; margin: 20px;}
+      #chat-data { height: 400px; overflow: auto; }
+    </style>
+  </head>
+  <body>
+    <h1>Socket.io Chatterbox</h1>
+    <div id="status" class="border">Disconnected</div>
+    <form id="login">
+      <label for="login-input">Login:</label>
+      <input id="login-input">
+    </form>
+    <div>
+      <div class="border left">
+        <h3>Nicks</h3>
+        <ul id="nicks">
+        </ul>
+      </div>
+      <div class="border right">
+        <form id="chat">
+          <label for="chat-input">Chat:</label>
+          <input id="chat-input">
+        </form>
+        <div id="chat-data">
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/socket.io.min.js"></script>
+    <script type="text/javascript" src="/js/test.js"></script>
+  </body>
+</html>
+
