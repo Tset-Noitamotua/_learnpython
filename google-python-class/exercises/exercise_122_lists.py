@@ -15,17 +15,18 @@
 def remove_adjacent(nums):
     new_list = []
     for index, number in enumerate(nums):
-      # print('index --> nummber:', index, number)
-      if index  == len(nums) - 1:
-        new_list.append(number)
-        # print('new_list -->', new_list)
-        return new_list
-      if number == nums[index + 1]:
-          pass
-          # print('popping number:', number, 'from index:', index)
-      else:
-        new_list.append(number)
-        # print('new_list -->', new_list)
+        # print('index --> nummber:', index, number)
+        # always add last number to new list
+        if index == len(nums) - 1:
+            new_list.append(number)
+            # print('new_list -->', new_list)
+            return new_list
+        if number == nums[index + 1]:
+            pass  # do nothing if numbers are equal
+        else:
+            # add number to new list if it has no duplicate
+            new_list.append(number)
+            # print('new_list -->', new_list)
     return new_list
 
 
@@ -34,8 +35,8 @@ def remove_adjacent(nums):
 # Ideally, the solution should work in "linear" time, making a single
 # pass of both lists.
 def linear_merge(list1, list2):
-  # +++your code here+++
-  return
+    list1.extend(list2)
+    return sorted(list1)
 
 # Note: the solution above is kind of cute, but unforunately list.pop(0)
 # is not constant time with the standard python list implementation, so
@@ -49,29 +50,30 @@ def linear_merge(list1, list2):
 # Simple provided test() function used in main() to print
 # what each function returns vs. what it's supposed to return.
 def test(got, expected):
-  if got == expected:
-    prefix = ' PASS '
-  else:
-    prefix = '  FAIL '
-  print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))
+    if got == expected:
+        prefix = ' PASS '
+    else:
+        prefix = '  FAIL '
+    print('%s got: %s expected: %s' % (prefix, repr(got), repr(expected)))
 
 
 # Calls the above functions with interesting inputs.
 def main():
-  print 'remove_adjacent'
-  test(remove_adjacent([1, 2, 2, 3]), [1, 2, 3])
-  test(remove_adjacent([2, 2, 3, 3, 3]), [2, 3])
-  test(remove_adjacent([]), [])
+    print('remove_adjacent')
+    test(remove_adjacent([1, 2, 2, 3]), [1, 2, 3])
+    test(remove_adjacent([2, 2, 3, 3, 3]), [2, 3])
+    test(remove_adjacent([2, 2, 3, 3, 4, 5, 5, 5, 5]), [2, 3, 4, 5])
+    test(remove_adjacent([2, 2, 3, 3, 4, 5, 5, 5, 4]), [2, 3, 4, 5, 4])
+    test(remove_adjacent([]), [])
 
-  print
-  print 'linear_merge'
-  test(linear_merge(['aa', 'xx', 'zz'], ['bb', 'cc']),
-       ['aa', 'bb', 'cc', 'xx', 'zz'])
-  test(linear_merge(['aa', 'xx'], ['bb', 'cc', 'zz']),
-       ['aa', 'bb', 'cc', 'xx', 'zz'])
-  test(linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb']),
-       ['aa', 'aa', 'aa', 'bb', 'bb'])
+    print('\nlinear_merge')
+    test(linear_merge(['aa', 'xx', 'zz'], ['bb', 'cc']),
+         ['aa', 'bb', 'cc', 'xx', 'zz'])
+    test(linear_merge(['aa', 'xx'], ['bb', 'cc', 'zz']),
+         ['aa', 'bb', 'cc', 'xx', 'zz'])
+    test(linear_merge(['aa', 'aa'], ['aa', 'bb', 'bb']),
+         ['aa', 'aa', 'aa', 'bb', 'bb'])
 
 
 if __name__ == '__main__':
-  main()
+    main()
