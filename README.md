@@ -99,7 +99,7 @@ Use http://pythontutor.com to 'visualize' your code
 
 
 
-GIT configuration
+MY! GIT configuration
 =================
 What do I need to do to configure git properly for Github?
 
@@ -113,24 +113,25 @@ NOTE: Assuming Github is configured to keep your email private
     
     NOTE: first time you use e.g. `git push` you will be prompt for credentials though
 
-Git tricks
+GIT tricks
 ==========
 
 ### **HOW TO** create a new repository on the command line
+> ... and connect it to your repo on Github 
 
 ```bash
 echo "# Name of Project" >> README.md
 git init
 git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/Tset-Noitamotua/pysaprfc.git
+git commit -m "initial commit"
+git remote add origin https://github.com/Tset-Noitamotua/repository_name.git
 git push -u origin master
 ```
 
 ### **HOW TO** push an existing repository from the command line
 
 ```bash
-git remote add origin https://github.com/Tset-Noitamotua/pysaprfc.git
+git remote add origin https://github.com/Tset-Noitamotua/repository_name.git
 git push -u origin master
 ```
 
