@@ -128,12 +128,14 @@ git remote add origin https://github.com/Tset-Noitamotua/repository_name.git
 git push -u origin master
 ```
 
+
 ### **HOW TO** push an existing repository from the command line
 
 ```bash
 git remote add origin https://github.com/Tset-Noitamotua/repository_name.git
 git push -u origin master
 ```
+
 
 ### **HOW TO** setup your fork repo so that it is connected with original repo on Github. 
 > That allows you to easily merge changes from original repo into your fork
@@ -158,3 +160,22 @@ For more details read original Github documentation:
 ```bash
 git remote set-url origin https://github.com/Tset-Noitamotua/awesome-test-automation   # my fork url
 ```
+
+### **HOW TO** undo an initial commit
+> NOTE: can't use `reset`here becauser there is only one commit in that case
+```bash
+git update-ref -d HEAD
+```
+It will delete the named reference HEAD, so it will reset (softly, you will not lose your work) all your commits of your current branch.
+([more details][] on stackoverflow.com)
+To get an working git repo after that you will have to init it again
+```bash
+git init
+git add .
+git commit -am "initial commit"
+git push -f
+```
+
+[more details]: http://stackoverflow.com/a/32765827/4445175
+
+
