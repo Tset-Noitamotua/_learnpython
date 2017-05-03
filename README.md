@@ -162,13 +162,13 @@ git remote set-url origin https://github.com/Tset-Noitamotua/awesome-test-automa
 ```
 
 ### **HOW TO** undo an initial commit
-> NOTE: can't use `reset`here becauser there is only one commit in that case
+> NOTE: can't use `reset`here because there is only one commit in that case
 ```bash
 git update-ref -d HEAD
 ```
 It will delete the named reference HEAD, so it will reset (softly, you will not lose your work) all your commits of your current branch.
 ([more details][] on stackoverflow.com)
-To get an working git repo after that you will have to init it again
+To get an working git repo after that you will have to init it again:
 ```bash
 git init
 git add .
