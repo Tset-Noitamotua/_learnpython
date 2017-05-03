@@ -116,6 +116,24 @@ NOTE: Assuming Github is configured to keep your email private
 Git tricks
 ==========
 
+### **HOW TO** create a new repository on the command line
+
+```bash
+echo "# Name of Project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Tset-Noitamotua/pysaprfc.git
+git push -u origin master
+```
+
+### **HOW TO** push an existing repository from the command line
+
+```bash
+git remote add origin https://github.com/Tset-Noitamotua/pysaprfc.git
+git push -u origin master
+```
+
 ### **HOW TO** setup your fork repo so that it is connected with original repo on Github. 
 > That allows you to easily merge changes from original repo into your fork
 > and thus keeps you synced:
