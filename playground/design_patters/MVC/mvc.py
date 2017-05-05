@@ -12,9 +12,6 @@ import sqlite3 as lite
 import types
 import sys
 
-con = None
-
-
 class DefectModel:
     """
     The DefectModel class describes model of a defect.
@@ -22,19 +19,30 @@ class DefectModel:
     def get_defect_list(self, component):
         pass
 
+# Connection to SQLite3 DB (local file test.db)
+con = lite.connect('test.db')
+
 def main():
-    try:
-        con = lite.connect('test.db')
+    
+    with con:
         cur = con.cursor()
         cur.execute('SELECT SQLITE_VERSION()')
         data = cur.fetchone()
-        print('SQLite version: %s' % data)
-    except lite.Error, e:
-        print('Error %s:' % e.args[0])
-        sys.exit(1)
-    finally:
-        if con:
-            con.close()
+        print('SQLite Version: %s' % data)
+    
+    # NOTE: the 'with' part above replaces the 'try - expect' part below
+    # try:
+    #     con = lite.connect('test.db')
+    #     cur = con.cursor()
+    #     cur.execute('SELECT SQLITE_VERSION()')
+    #     data = cur.fetchone()
+    #     print('SQLite version: %s' % data)
+    # except lite.Error, e:
+    #     print('Error %s:' % e.args[0])
+    #     sys.exit(1)
+    # finally:
+    #     if con:
+    #         con.close()
 
 
 if __name__ == '__main__':
