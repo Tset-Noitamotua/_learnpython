@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 sqlite_tutorial_06.py
+
 This is code from online "SQLite Python tutorial": http://zetcode.com/db/sqlitepythontutorial/
+
 @author Tset Noitamotua (tset.no@gmail.com)
 @version 2017-05-05
 """
