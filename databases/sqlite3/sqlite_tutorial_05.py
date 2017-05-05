@@ -33,12 +33,12 @@ def main():
 
         con.commit()
         
-    except lite.Error, e:
+    except lite.Error as e:
         
         if con:
             con.rollback()
             
-        print "Error %s:" % e.args[0]
+        print("Error %s:" % e.args[0])
         sys.exit(1)
         
     finally:

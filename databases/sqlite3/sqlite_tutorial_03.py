@@ -27,8 +27,8 @@ def main():
         # create table in db
         try:
             cur.execute('CREATE TABLE Cars(Id INT, Name TEXT, Price INT)')
-        except lite.OperationalError, error:
-            print(error)
+        except lite.OperationalError as error:
+            print("SQLite Error: {0}".format(error))
         # insert data into db
         cur.execute('INSERT INTO Cars VALUES(1, "Audi", 52642)')
         cur.execute('INSERT INTO Cars VALUES(2, "Mercedes", 57127)')

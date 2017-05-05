@@ -5,7 +5,7 @@ Follow this cool tutorial online [SQLite3 Python Tutorial][1]!
 [1]: http://zetcode.com/db/sqlitepythontutorial/
 
 ## Prerequisites
-1. Python 2.7 / 3.5+???
+1. Python 2.7 / 3.5+ (recommended!)
 3. SQLite3 [command line tools][2]
 
 [2]: https://sqlite.org/download.html
