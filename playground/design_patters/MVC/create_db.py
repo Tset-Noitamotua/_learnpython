@@ -13,8 +13,8 @@ import sqlite3 as lite
 
 
 data = (
-    (1, 'XYZ', 'File doesn‘t get deleted'),
-    (2, 'XYZ', 'Registry doesn‘t get created'),
+    (1, 'XYZ', 'File does not get deleted'),
+    (2, 'XYZ', 'Registry does not get created'),
     (3, 'ABC', 'Wrong title gets displayed')
 )
 
@@ -24,6 +24,6 @@ con = lite.connect('TMS.db')
 with con:
     
     cur = con.cursor()    
-    cur.execute("DROP TABLE IF EXISTS TMS")
+    cur.execute("DROP TABLE IF EXISTS Defects")
     cur.execute("CREATE TABLE Defects(Id INT, Component TEXT, Summary TEXT)")
     cur.executemany("INSERT INTO Defects VALUES(?, ?, ?)", data)
