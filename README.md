@@ -3,7 +3,10 @@ Getting started with Python ...
 
 ![python_logo](images/python_logo.png)
 
-Nothing special here, just trying to learn some Python
+### A short background story
+As my first kid - my son John - was born in 2013 I said "if he can learn a language in 2 or 3 years then I should be able to learn Python with ease in the same time - even with no prior programming skills."
+
+John is 5 years now as I once again edit this document, which I started to write somewhere in the end of 2014. While John learned to walk, to run, to ride bicycle and to speak almost two languages (German and Russian) I am still on a beginner like level in Python. In the past few years I have started several times more or less from scratch and unfortunately never finished. Meanwhile my second kid - my daughter Mia - was born (2016) and she's already speaking almost like a pro while I am still/again learning. This is just another attempt to continue my Python journey. I swear to myself I will master that beast! (09/08/2018)
 
 ### But why Python?
 > Python community has its own unique character. Python has a culture which finds an ideal balance between fast-moving innovation and diligent caution. It emphasizes readability, minimizes "magic," treats documentation as a first-class concern, and has a traditon of well-tested, backward-compatible releases in both the core language and its ecosystem of libraries. It blends approachability for beginners with maintainability for large projects, which has enabled its presence in fields as diverse as scientific computing, video games, systems automation, and the web. (Source: [Heroku](https://blog.heroku.com/python_and_django))
@@ -13,7 +16,8 @@ Python Learning Path
 
 ## PART I (beginner)
 > For total beginners that have no previous programming experience.
-> 
+
+> TIP: As soon as you come to learning conditional statements `if`, `elif`, `else` and `while` use [Python Tutor](http://pythontutor.com)  to 'visualize' code execution - it really helps a lot in understanding what's happening under the hood. 
 
 
 * [ ] [Google Python Class](https://youtu.be/tKTZoB2Vjuk?list=PLC8825D0450647509) (YouTube Video)
@@ -33,6 +37,7 @@ Python Learning Path
 
 * [ ] **Want more? For free?**
   - https://checkio.org/ (GAME!!! Play & Learn!)
+  - https://www.codewars.com/?language=python
   - https://www.coursera.org/learn/python/
   - https://www.coursera.org/learn/learn-to-program/
   - http://www.afterhoursprogramming.com/tutorial/Python/Overview/
@@ -48,7 +53,7 @@ Python Learning Path
     - http://www.singpath.com/#/paths (nice idea - unfotunatly buggy as sh**)
     - ...
 
-* [ ] **Want even more? (Mostly paid stuff):**
+* [ ] **Want even more & are ready to pay for it? (Mostly paid stuff):**
   - https://realpython.com ($60)
   - https://www.codeschool.com/ ($20 - $30 /mo)
   - https://www.datacamp.com/
@@ -103,13 +108,9 @@ MY! GIT configuration
 =================
 What do I need to do to configure git properly for Github?
 
-NOTE: Assuming cmder, git and git-lfs is already installed (e.g. with chocolatey)
-
-NOTE: Assuming Github is configured to keep your email private
-
 1. `git config --global user.name "tset-noitamotua"`
 2. `git config --global user.email "tset-noitamotua@users.noreply.github.com"`
-3. `git config --global credential.helper wincred`
+3. `git config --global credential.helper wincred` (Windows only?)
     
     NOTE: first time you use e.g. `git push` you will be prompt for credentials though
 
