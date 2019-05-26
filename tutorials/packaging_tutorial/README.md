@@ -20,6 +20,8 @@ python setup.py sdist bdist_wheel
 
 # UPLOADING TO PyPi server
 twine upload dist/*
+# alternatively
+python -m twine upload dist/*
 
 
 
