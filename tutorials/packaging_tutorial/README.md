@@ -18,10 +18,11 @@ twine --help
 # dist will contain packages that you want to upload
 python setup.py sdist bdist_wheel
 
-# UPLOADING TO PyPi server
+# UPLOADING TO PyPi server (requires registration)
 twine upload dist/*
 # alternatively
 python -m twine upload dist/*
+# you will be prompted for pypi-username and password
 
 
 
