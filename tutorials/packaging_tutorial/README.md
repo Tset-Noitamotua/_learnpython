@@ -35,5 +35,8 @@ python -m pip install --index-url https://test.pypi.org/simple/ --no-deps exampl
 python -m pip install -i https://test.pypi.org/simple/ --no-deps example-pkg-your-username
 ```
 
+For more details check setuptools documentation for [Packaging and distributing projects].
+
 [Packaging Python Projects]:https://packaging.python.org/tutorials/packaging-projects/
 [pypi.org]:https://pypi.org/
+[Packaging and distributing projects]:https://packaging.python.org/guides/distributing-packages-using-setuptools/#packaging-and-distributing-projects
