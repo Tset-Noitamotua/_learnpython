@@ -105,13 +105,6 @@ Use http://pythontutor.com to 'visualize' your code
 
 
 
-### A short background story
-
-As my first kid - my son John - was born in 2013 I said "if he can learn a language in 2 or 3 years then I should be able to learn Python with ease in the same time - even with no prior programming skills."
-
-John is 6 years now as I once again edit this document, which I started to write somewhere in the end of 2014. While John learned to walk, to run, to ride bicycle and to speak almost two languages (German and Russian) I am still on a beginner like level in Python. In the past few years I have started several times more or less from scratch and unfortunately never finished. Meanwhile my second kid - my daughter Mia - was born (2016) and she's already speaking almost like a pro while I am still/again learning. This is just another attempt to continue my Python journey. I swear to myself I will master that beast! (09/08/2018)
-
-
 
 MY! GIT configuration
 =================
@@ -187,3 +180,13 @@ git push -f
 ```
 
 [more details]: http://stackoverflow.com/a/32765827/4445175
+
+
+
+
+A short background story
+========================
+
+As my first kid - my son John - was born in 2013 I said "if he can learn a language in 2 or 3 years then I should be able to learn Python with ease in the same time - even with no prior programming skills."
+
+John is 6 years now as I once again edit this document, which I started to write somewhere in the end of 2014. While John learned to walk, to run, to ride bicycle and to speak almost two languages (German and Russian) I am still on a beginner like level in Python. In the past few years I have started several times more or less from scratch and unfortunately never finished. Meanwhile my second kid - my daughter Mia - was born (2016) and she's already speaking almost like a pro while I am still/again learning. This is just another attempt to continue my Python journey. I swear to myself I will master that beast! (09/08/2018)
