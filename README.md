@@ -1,23 +1,21 @@
-Getting started with Python ... 
+Getting started with Python ...
 ===============================
 
 ![python_logo](images/python_logo.png)
 
-### A short background story
-As my first kid - my son John - was born in 2013 I said "if he can learn a language in 2 or 3 years then I should be able to learn Python with ease in the same time - even with no prior programming skills."
-
-John is 5 years now as I once again edit this document, which I started to write somewhere in the end of 2014. While John learned to walk, to run, to ride bicycle and to speak almost two languages (German and Russian) I am still on a beginner like level in Python. In the past few years I have started several times more or less from scratch and unfortunately never finished. Meanwhile my second kid - my daughter Mia - was born (2016) and she's already speaking almost like a pro while I am still/again learning. This is just another attempt to continue my Python journey. I swear to myself I will master that beast! (09/08/2018)
 
 ### But why Python?
-> Python community has its own unique character. Python has a culture which finds an ideal balance between fast-moving innovation and diligent caution. It emphasizes readability, minimizes "magic," treats documentation as a first-class concern, and has a traditon of well-tested, backward-compatible releases in both the core language and its ecosystem of libraries. It blends approachability for beginners with maintainability for large projects, which has enabled its presence in fields as diverse as scientific computing, video games, systems automation, and the web. (Source: [Heroku](https://blog.heroku.com/python_and_django))
+> Python community has its own unique character. Python has a culture which finds an ideal balance between fast-moving innovation and diligent caution. It emphasizes readability, minimizes "magic," treats documentation as a first-class concern, and has a tradition of well-tested, backward-compatible releases in both the core language and its ecosystem of libraries. It blends approachability for beginners with maintainability for large projects, which has enabled its presence in fields as diverse as scientific computing, video games, systems automation, and the web. (Source: [Heroku](https://blog.heroku.com/python_and_django))
 
-Python Learning Path
-====================
 
-## PART I (beginner)
-> For total beginners that have no previous programming experience.
 
-> TIP: As soon as you come to learning conditional statements `if`, `elif`, `else` and `while` use [Python Tutor](http://pythontutor.com)  to 'visualize' code execution - it really helps a lot in understanding what's happening under the hood. 
+A Roadmap to Learn Python - 3 Learning Paths
+=======================================
+
+## PART I (Beginner Path)
+> Learning Python for total beginners that have no previous programming experience.
+
+> PRO TIP: As soon as you come to learning conditional statements `if`, `elif`, `else` and `while` use [Python Tutor](http://pythontutor.com)  to 'visualize' code execution - it really helps a lot in understanding what's happening under the hood.
 
 
 * [ ] [Google Python Class](https://youtu.be/tKTZoB2Vjuk?list=PLC8825D0450647509) (YouTube Video)
@@ -54,6 +52,7 @@ Python Learning Path
     - ...
 
 * [ ] **Want even more & are ready to pay for it? (Mostly paid stuff):**
+  - https://www.codecademy.com
   - https://realpython.com ($60)
   - https://www.codeschool.com/ ($20 - $30 /mo)
   - https://www.datacamp.com/
@@ -66,8 +65,8 @@ Use http://pythontutor.com to 'visualize' your code
 
 
 
-## PART II (intermediate)
-> For peope that have at least some previous programming experience even if it's from other languages.
+## PART II (Intermediate Path)
+> For people that have at least some previous programming experience even if it's from other languages.
 
 * [ ] [Dive Into Python 3](http://www.diveintopython3.net/) (Book online)
 * [ ] [Python for Computational Science and Engineering](http://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf) (PDF)
@@ -81,7 +80,7 @@ Use http://pythontutor.com to 'visualize' your code
 * [ ] https://www.coursera.org/learn/interactive-python-2/
 
 
-## PART III (specialization)
+## PART III (Specialization Path)
 > Where do you want to go after Part I and II? There are a lot of special areas and it is hard to master them all thus you should decide where you want to put your focus.
 
 * [ ] Backend/API development
@@ -97,10 +96,20 @@ Use http://pythontutor.com to 'visualize' your code
 * [ ] ...
 
 ## Editor (IDE) recommendation
+ - https://atom.io/
+ - https://code.visualstudio.com/
+ - https://www.sublimetext.com/
  - for PART I: https://repl.it/languages/python3 (no installation require)
  - for PART II: PyCharm CE / IntelliJ CE / VisualStudio 2015+
  - for PART III: one of PART II + some specialized tools or frameworks
 
+
+
+### A short background story
+
+As my first kid - my son John - was born in 2013 I said "if he can learn a language in 2 or 3 years then I should be able to learn Python with ease in the same time - even with no prior programming skills."
+
+John is 6 years now as I once again edit this document, which I started to write somewhere in the end of 2014. While John learned to walk, to run, to ride bicycle and to speak almost two languages (German and Russian) I am still on a beginner like level in Python. In the past few years I have started several times more or less from scratch and unfortunately never finished. Meanwhile my second kid - my daughter Mia - was born (2016) and she's already speaking almost like a pro while I am still/again learning. This is just another attempt to continue my Python journey. I swear to myself I will master that beast! (09/08/2018)
 
 
 
@@ -111,14 +120,14 @@ What do I need to do to configure git properly for Github?
 1. `git config --global user.name "tset-noitamotua"`
 2. `git config --global user.email "tset-noitamotua@users.noreply.github.com"`
 3. `git config --global credential.helper wincred` (Windows only?)
-    
+
     NOTE: first time you use e.g. `git push` you will be prompt for credentials though
 
 GIT tricks
 ==========
 
 ### **HOW TO** create a new repository on the command line
-> ... and connect it to your repo on Github 
+> ... and connect it to your repo on Github
 
 ```bash
 echo "# Name of Project" >> README.md
@@ -138,7 +147,7 @@ git push -u origin master
 ```
 
 
-### **HOW TO** setup your fork repo so that it is connected with original repo on Github. 
+### **HOW TO** setup your fork repo so that it is connected with original repo on Github.
 > That allows you to easily merge changes from original repo into your fork
 > and thus keeps you synced:
 
@@ -146,7 +155,7 @@ git push -u origin master
 1. git clone https://github.com/Tset-Noitamotua/robotframework    # my fork url
 2. git remote add upstream https://github.com/robotframework/robotframework.git    # upstream repo url
 3. git checkout master    # if not already on master branch
-4. git pull upstream master    # or any other branch 
+4. git pull upstream master    # or any other branch
 5. git push origin master    # to update your remote branch
 ```
 
@@ -178,5 +187,3 @@ git push -f
 ```
 
 [more details]: http://stackoverflow.com/a/32765827/4445175
-
-
